@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExistingMeal">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/maindesign"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-366dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="429dp"
+        android:layout_height="441dp"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="284dp"
+        tools:srcCompat="#A49788" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Existing Meal"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record a Food Entry"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Name"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="351dp"
+        android:layout_height="41dp"
+        android:background="@color/white"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serving Information"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="360dp"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="e.g. 20g"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="103dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#997380"
+        android:text="Log"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories (kcal):"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="360dp"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="e.g. 50 kcal"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Protein"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <EditText
+        android:id="@+id/editTextText14"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Carbs"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <EditText
+        android:id="@+id/editTextText15"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Fats"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Macros"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="46dp"
+        android:layout_height="38dp"
+        android:background="#2D3B64"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="46dp"
+        android:layout_height="38dp"
+        android:background="#2D3B64"
+        app:srcCompat="@drawable/dashboard__1_"
+        tools:layout_editor_absoluteX="359dp"
+        tools:layout_editor_absoluteY="7dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

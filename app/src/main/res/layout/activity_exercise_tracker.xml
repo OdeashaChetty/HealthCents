@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseTracker">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/maindesign"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-365dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="422dp"
+        android:layout_height="431dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:srcCompat="#A49788" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise Tracker"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record your exercise here"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#073030"
+        android:text="Enter"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="447dp"
+        android:layout_height="52dp"
+        android:text="Please enter the type of exercise you have done:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="302dp"
+        android:layout_height="39dp"
+         android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="447dp"
+        android:layout_height="52dp"
+        android:text="Please enter how long you exercised for (in hrs):"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="302dp"
+        android:layout_height="39dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+
+        android:layout_width="447dp"
+        android:layout_height="52dp"
+        android:text="Please enter how many calories you burned:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="172dp"
+        android:layout_height="46dp"
+        android:text="Kilocalories (kcal):"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="74dp"
+        android:layout_height="46dp"
+        android:background="#997380"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="46dp"
+        android:layout_height="38dp"
+        android:background="#2D3B64"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="46dp"
+        android:layout_height="38dp"
+        android:background="#2D3B64"
+        app:srcCompat="@drawable/dashboard__1_"
+        tools:layout_editor_absoluteX="359dp"
+        tools:layout_editor_absoluteY="7dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

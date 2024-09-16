@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="571dp"
+        android:layout_height="476dp"
+        app:srcCompat="@drawable/settingspic"
+        tools:layout_editor_absoluteX="-89dp"
+        tools:layout_editor_absoluteY="-185dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="428dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="191dp"
+        tools:srcCompat="#073030" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Profile"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View and Edit your personal Details"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="340dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="340dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="340dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Height"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="339dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="340dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Calories"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="417dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="692dp"
+        tools:srcCompat="#073030" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:backgroundTint="#A49788"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="304dp"
+        android:layout_height="51dp"
+        android:text="To Edit your calorie goals and excercise information click here"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#997380"
+        android:text="Save"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="52dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/dashboard__1_"
+        tools:layout_editor_absoluteX="356dp"
+        tools:layout_editor_absoluteY="3dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

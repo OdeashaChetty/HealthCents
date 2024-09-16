@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "752075548243",
+    "project_id": "healthcents-14348",
+    "storage_bucket": "healthcents-14348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752075548243:android:05b23368b9886691c188a6",
+        "android_client_info": {
+          "package_name": "com.example.healthcents"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrJpOU9QWsAn3r9QIQYe2luVNTodw_GrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
